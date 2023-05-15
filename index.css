@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --acent_fw_8:800;
+    --acent_fw_7:700;
+    --acent_fw_6:600;
+    --acent_fw_5:500;
+    --acent_fw_4:400;
+    --acent_fw_3:300;
+    --accent_gap20:20px;
+    --accent_gap30:30px;
+    --accent_gap40:40px;
+    --accent_gap50:50px;
+    --accent_gap60:60px;
+    --accent_gap70:70px;
+    --acent_accent1: #FF8A01;
+    --acent_accent2: #015682;
+    --acent_accent3: #FFF9F2;
+    --acent_light-Accent1: rgba(255,138,1,0.2);
+    --acent_18:18px;
+    --acent_20:20px;
+    --acent_36:36px;
+    --acent_16:16px;
+    --acent_45:45px;
+    --acent_64:64px;
+    --accent_ff1:'Poppins', sans-serif;
+    --accent_ff2: 'Nunito', sans-serif;;
+    --accent_shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+body{
+    background: white;
+    height: 100%;
+}
+header{
+    height: 15vh;
+}
+.fw300{
+    font-weight: var(--acent_fw_3);
+}
+.fw400{
+    font-weight: var(--acent_fw_4);
+}
+.fw500{
+    font-weight: var(--acent_fw_5);
+}
+.fw600{
+    font-weight: var(--acent_fw_6);
+}
+.fw700{
+    font-weight: var(--acent_fw_7);
+}
+.fw800{
+    font-weight: var(--acent_fw_8);
+}
+.fw900{
+    font-weight: 900;
+}
+.fs16{
+    font-size: var(--acent_16);
+}
+.fs18{
+    font-size: var(--acent_18);
+}
+.fs20{
+    font-size: var(--acent_20);
+}
+.fs36{
+    font-size: var(--acent_36);
+}
+.fs45{
+    font-size: var(--acent_45);
+}
+.fs64{
+    font-size: var(--acent_64);
+}
+.w10{
+    width: 10%;
+}
+.w20{
+    width: 20%;
+}
+.w30{
+    width: 30%;
+}
+.w40{
+    width: 40%;
+}
+.w50{
+    width: 50%;
+}
+.w60{
+    width: 60%;
+}
+.w70{
+    width: 70%;
+}
+.w80{
+    width: 80%;
+}
+.w90{
+    width: 90%;
+}
+.w100{
+    width: 100%;
+}
+/* .h7{
+    height: 70px;
+}
+.h8{
+    height: 80px;
+}
+.h9{
+    height: 90px;
+}
+.h10{
+    height: 100px;
+}
+.h20{
+    height: 200px;
+}
+.h30{
+    height: 300px;
+}
+.h40{
+    height: 400px;
+}
+.h50{
+    height: 500px;
+}
+.h60{
+    height: 600px;
+}
+.h70{
+    height: 700px;
+}
+.h80{
+    height: 800px;
+}
+.h90{
+    height: 900px;
+}
+.h100{
+    height: 1000px;
+} */
+.gap20{
+    gap: var(--accent_gap20);
+}
+.gap30{
+    gap: var(--accent_gap30);
+}
+.gap40{
+    gap: var(--accent_gap40);
+}
+.gap50{
+    gap: var(--accent_gap50);
+}
+.gap60{
+    gap: var(--accent_gap60);
+}
+.gap70{
+    gap: var(--accent_gap70);
+}
+.br5{
+    border-radius: 5px;
+}
+.br10{
+    border-radius: 10px;
+}
+.br20{
+    border-radius: 20px;
+}
+.br50{
+    border-radius: 50px;
+}
+.br50p{
+    border-radius: 50%;
+}
+.bw1{
+    border-width: 1px;
+}
+.bw2{
+    border-width: 2px;
+}
+.bs{
+    border-style: solid;
+}
+.bcolor1{
+    border-color: white;
+}
+.bcolor2{
+    border-color: #FF8A01;
+}
+.bsn{
+    border: none;
+}
+
+.bg{
+    background: none;
+}
+.pb10{
+    padding-block: 10px;
+}
+.link{
+    font-weight: var(--acent_fw_6);
+    font-size: var(--acent_fs_small);
+    line-height: 25px;
+    color: var(--acent_accent2);
+}
+
+.nunito{
+    font-family: var(--accent_ff2);
+}
+.poppins{
+    font-family: var(--accent_ff1);
+}
+
+.color1{
+   color: var(--acent_accent1);
+}
+.color2{
+    color: var(--acent_accent2);
+}
+.color3{
+    color: var(--acent_link_color);
+}
+.color4{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.textcenter{
+text-align: center;
+}
+.df{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.fd-col{
+    flex-direction: column;
+}
+.flexwrap{
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+
+.home{
+    background: url(/image/desktop-landpage-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 732px;
+    max-height: 100%;
+}
+.homecontent{
+    background: rgba(1, 86, 130,.3);
+    height: 100%;
+}
+
+.home button{
+    background: #FF8A01;
+}
+.home .search{
+    width: 425px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1.25px 22.5px rgba(0, 0, 0, 0.12);
+
+}
+.home input{
+
+}
